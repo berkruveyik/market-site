@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    
+    font-family: Arial;
+  }
+  
+  #img{
+    width: 200px;
+    margin-left: 100px;
+    margin-top: -10px;
+    margin-bottom: -50px;
+  }
+  .box1{
+    background-color: rgb(255, 255, 255);
+    
+  }
+  .d-flex{
+  
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 40px;
+    
+  }
+  .catagories{
+    margin-left: 200px;
+  }
+  
+  .margin{
+    margin: 0px;
+    padding: 0px;
+  }
+  .form-control{
+    text-align: center
+  }
+  .catagories{
+    margin-left: 200px;
+  }
+  .form-control{
+    border-radius: 16px;
+    width: 500px;
+    height: 40px;
+  }
+  .btn{
+    height: 40px; 
+    width: 80px;
+    border-radius: 16px;
+    background-color: rgb(221, 109, 44);
+    color: azure;
+    cursor: pointer;
+  }
+  #line{
+    background-color: rgb(252, 252, 252);
+    height: 50px;
+    list-style-type:none;
+  }
+  
+  #line ul{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    
+  }
+  
+  
+  #line ul#main li ul{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    
+  }
+  
+  #line ul#main li{
+    float: left;
+    position: relative;
+    width: 150px;
+    
+    
+    
+  }
+  #line ul li a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+    
+  }
+  #line ul li a:hover{
+    background-color: rgb(253, 209, 144);
+  }
+  #line ul#main li:hover ul{
+    display: block;
+    
+  
+  }
+  
+  #line #right-side li{
+    float: right;
+    position: relative;
+    width: -100px;
+  
+  }
+  #line #right-side li ul{
+    display: none;
+  }
+  
+  #line #right-side li:hover ul{
+    display: block;
+  }
+  #line #right-side li #langugage{
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    background-color: rgb(219, 228, 230);
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .login1{
+    background-color: #f1b900; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+  }
+.badge{
+    
+    width: 10px;
+    
+    border: 1px solid rgb(248, 171, 3);
+    margin: 3px;
+    
+
+    position: relative;
+    background-color: rgb(238, 155, 59);
+    font-size: 15px;
+    top: -10px;
+    left: 2px;
+    border-radius: 10px;
+    padding-left: 9px; 
+    padding-right: 9px;
+    padding-top: -4px;
+    padding-bottom: -4px;
+}  
+
